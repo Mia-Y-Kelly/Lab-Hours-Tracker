@@ -2,10 +2,12 @@
 // https://www.pluralsight.com/guides/extracting-input-from-a-form-with-reactjs
 // https://www.pluralsight.com/guides/how-to-pass-data-between-react-components
 import React from 'react';
-import reactDom from 'react-dom';
-import UpdateRows from './components/UpdateRows';
 import "./App.css";
+import RenderRows from './components/RenderRows';
+import reactDom from 'react-dom';
+
 export default class App extends React.Component {
+    // Set state
     constructor(props) {
         super(props);
         this.state = {
@@ -37,7 +39,10 @@ export default class App extends React.Component {
 
     handleButtonClicked() {
         console.log(this.state.customer);
-        reactDom.render(<UpdateRows dataFromApp={this.state.customer} />, document.getElementById('table'));
+        reactDom.render(
+            <RenderRows dataFromApp={this.state.customer} />,
+            document.getElementById('table')
+        );
     }
 
     render() {
