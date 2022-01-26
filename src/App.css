@@ -13,3 +13,11 @@ label{
 h1{
   margin-bottom: 2px;
 }
+
+th{
+  text-align: left;
+}
+
+td {
+  text-align: left;
+}
