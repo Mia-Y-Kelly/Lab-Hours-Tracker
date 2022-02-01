@@ -10,7 +10,7 @@ ReactDOM.render(
 
 
 // Server test
-mysql = require('mysql');
+let mysql = require('mysql');
 // const connection = mysql.createConnection({
 //     host: "localhost",
 //     user: "root",
