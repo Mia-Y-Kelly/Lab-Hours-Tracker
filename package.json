@@ -1,27 +1,18 @@
 {
-  "name": "NCSA Lab Hours",
+  "name": "ncsa-lab-hours",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "buffer": "^6.0.3",
-    "crypto-browserify": "^3.12.0",
     "express": "^4.17.2",
+    "fs": "^0.0.1-security",
     "mysql": "^2.18.1",
     "net": "^1.0.2",
-    "nodemon": "^2.0.15",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
-    "stream-browserify": "^3.0.0",
-    "timers-browserify": "^2.0.12",
+    "react-scripts": "^5.0.0",
     "tls": "^0.0.1",
     "url": "^0.11.0",
-    "util": "^0.12.4",
-    "web-vitals": "^2.1.4",
-    "webpack": "^5.67.0"
+    "util": "^0.12.4"
   },
   "scripts": {
     "start": "react-scripts start",
