@@ -1,6 +1,7 @@
 // //Reference used https://www.pluralsight.com/guides/creating-dynamic-editable-tables-with-reactjs
 // import React from 'react';
 
+// Store older implementation of Rendering the rows in here
 // export default class App extends React.Component {
 //     constructor(props) {
 //         super(props);
